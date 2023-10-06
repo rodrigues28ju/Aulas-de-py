@@ -14,6 +14,15 @@ class Conta:
     def sacar(self):
         valor = float(input("Informe o valor"))
         self.saldo = self.saldo - valor
+        if valor <= self.saldo:
+            self.saldo = self.saldo - valor
+        else:
+            print("Não pode")
+
+    def transferir(self, destinatario, valor):
+        if valor > 0 and valor < self.saldo:
+            self.saldo = self.saldo - valor
+            destinatario.depositar(valor)
 
 
 
