@@ -20,6 +20,7 @@ class Conta:
             print("Não pode")
 
     def transferir(self, destinatario, valor):
+        valor = float(input("Informe o valor para transferir: "))
         if valor > 0 and valor < self.saldo:
             self.saldo = self.saldo - valor
             destinatario.depositar(valor)
@@ -37,6 +38,7 @@ c1.depositar()
 c1.consultar()
 c1.sacar()
 c1.consultar()
+c1.transferir()
 """
 caso nao aceita o contrutor criar um vazio tipo c4 = Conta()
 
