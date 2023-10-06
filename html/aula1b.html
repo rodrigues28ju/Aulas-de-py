@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1b</title>
+</head>
+<body><!--css inline-->
+
+    <style> 
+    div{
+        width:100px ; /*Tamanho*/
+        height:100px ;/*Altura*/
+        background-color: aquamarine ;/*cor de fundo*/
+        border-radius: 15%; /*bordas*/
+        /*transiçao do elemento em segundo*/
+
+        transition: width 2s, height 4s;
+    }
+    div:hover {
+        width: 300px; ;
+        height: 300px;
+    } 
+    .button-azul{ /*. significa classe*/
+        margin: 10px;/*margem*/
+        border: none;
+        border-radius: 0.2px;
+        background-color: #56b8c4;
+        color: white;
+        width: auto;
+        height: 40px;
+    }
+    .button-red{ /*. significa classe*/
+        margin: 10px;/*margem*/
+        border: none;
+        border-radius: 0.2px;
+        background-color: red;
+        color: white;
+        width: auto;
+        height: 40px;
+    }
+    .button-red:hover{
+        background-color: #56b8c4;
+        box-shadow: firebrick ;  /* a leitura do css e sempre sentido horario  de cima para direita , da direita para baixo, baixo para esquerda*/
+        
+    }
+    .button-pink{ /*. significa classe*/
+        margin: 10px;/*margem*/
+        border: none;
+        border-radius: 0.2px;
+        background-color: pink;
+        color: white;
+        width: auto;
+        height: 40px;
+    }
+    .button-orange{ /*. significa classe*/
+        margin: 10px;/*margem*/
+        border: none;
+        border-radius: 0.2px;
+        background-color: orange;
+        color: white;
+        width: auto;
+        height: 40px;
+    } 
+
+    </style>
+    <!--<div></div>-->
+    <button class="button-azul">Cadastrar Cliente</button>
+    <button class="button-red">Excluir Cliente</button>
+    <button class="button-pink">meu link</button>
+    <button class="button-orange">minha bota</button>
+
+
+</body>
+</html>
