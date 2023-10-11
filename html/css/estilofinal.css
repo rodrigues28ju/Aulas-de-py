@@ -1,14 +1,28 @@
-a{
+.link{
     text-decoration: none;
-    background-color: brown;
+    background-color: #c1a0ea;
+    color: aliceblue;
+    border: none;
     padding: 10px 10px 10px 10px;
-    margin: 10px 0 10px 10px;
-    border-radius: 20px;
+    margin: 20px 0.5px 0 5px;
 }
-a:hover{
+.link:hover{
     background-color: aquamarine;
     color: aqua;
     transition: 3s;
-    
+
 }
 
+.icone{
+
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0.5px 0 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+img{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
