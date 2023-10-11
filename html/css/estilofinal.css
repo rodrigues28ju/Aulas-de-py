@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+    background-color: brown;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0 10px 10px;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: aquamarine;
+    color: aqua;
+    transition: 3s;
+    
+}
+
